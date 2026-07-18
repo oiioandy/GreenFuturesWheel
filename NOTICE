@@ -1,0 +1,17 @@
+Green Futures Wheel - Future Literacy Teaching Assistant Tool
+2026.09.01.02
+================================================================
+
+Developed by An-Ting Kuo.
+
+Copyright (c) 2026 An-Ting Kuo.
+
+Licensed under the MIT License. See the LICENSE file for the full license text.
+
+Third-party components:
+
+  vis-network - MIT / Apache-2.0 dual license
+  See vendor/vis-network.min.js for details.
+
+  PptxGenJS — MIT license (loaded from CDN when exporting PowerPoint)
+  https://github.com/gitbrent/PptxGenJS
