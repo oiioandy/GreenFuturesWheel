@@ -1,0 +1,33 @@
+# Agent / IDE
+terminals/
+.cursor/
+.vscode/
+.idea/
+
+# Local captures / personal docs
+screenshot/
+*.png
+!favicon.svg
+discussion01.pdf
+
+# Secrets (future-proof)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+credentials.json
+*serviceAccount*.json
+google-services.json
+
+# OS / tooling
+Thumbs.db
+Desktop.ini
+.DS_Store
+node_modules/
+dist/
+build/
+*.log
