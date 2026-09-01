@@ -1,5 +1,7 @@
 # Green Futures Wheel
 
+**Languages:** **English** · [中文](README.zh-TW.md) · [ไทย](README.th.md) · [العربية](README.ar.md) · [Français](README.fr.md) · [Русский](README.ru.md) · [Español](README.es.md)
+
 A free, single-page tool for running **Futures Wheel** workshops (Glenn, 1971) — a group of people can build one wheel together, live, each in their own language, on whatever device they have. No installation, no account, no build step.
 
 ## Highlights
