@@ -4,6 +4,8 @@
 
 A free, single-page tool for running **Futures Wheel** workshops (Glenn, 1971) — a group of people can build one wheel together, live, each in their own language, on whatever device they have. No installation, no account, no build step.
 
+> **This is a work in progress**, not a finished product — it keeps changing as it gets used in real workshops. If something is confusing, breaks, or could be better, please [open an issue](https://github.com/oiioandy/oiioFuturesWheel/issues) or start a discussion. Any suggestion is genuinely welcome and appreciated.
+
 ## Highlights
 
 - **One HTML file.** No npm install, no build step. Open it or serve it — that's it.

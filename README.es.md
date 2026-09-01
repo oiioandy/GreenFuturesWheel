@@ -4,6 +4,8 @@
 
 Una herramienta gratuita de una sola página para dirigir talleres de **Rueda de Futuros** (Futures Wheel, Glenn, 1971) — un grupo de personas puede construir una rueda juntos, en vivo, cada uno en su propio idioma, en el dispositivo que tenga a mano. Sin instalación, sin cuenta, sin paso de compilación.
 
+> **Este es un trabajo en curso**, no un producto terminado — sigue cambiando conforme se usa en talleres reales. Si algo no está claro, no funciona o podría mejorarse, no dudes en [abrir un issue](https://github.com/oiioandy/oiioFuturesWheel/issues) o iniciar una discusión. Cualquier sugerencia es sinceramente bienvenida y muy apreciada.
+
 ## Lo más destacado
 
 - **Un solo archivo HTML.** Sin instalación de npm, sin paso de compilación. Ábrelo o sírvelo — eso es todo.

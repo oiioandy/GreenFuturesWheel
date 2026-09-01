@@ -4,6 +4,8 @@
 
 Un outil gratuit, en une seule page, pour animer des ateliers de **roue des futurs** (Futures Wheel, Glenn, 1971) — un groupe peut construire une roue ensemble, en direct, chacun dans sa propre langue, sur l'appareil qu'il a sous la main. Sans installation, sans compte, sans étape de build.
 
+> **Ceci est un travail en cours**, pas un produit fini — il continue d'évoluer au fil de son usage dans de vrais ateliers. Si quelque chose n'est pas clair, ne fonctionne pas, ou pourrait être amélioré, n'hésitez pas à [ouvrir une issue](https://github.com/oiioandy/oiioFuturesWheel/issues) ou à lancer une discussion. Toute suggestion est sincèrement bienvenue et appréciée.
+
 ## Points forts
 
 - **Un seul fichier HTML.** Pas d'installation npm, pas de build. Ouvrez-le ou servez-le — c'est tout.
