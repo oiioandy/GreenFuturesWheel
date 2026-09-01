@@ -4,7 +4,7 @@
 
 Un outil gratuit, en une seule page, pour animer des ateliers de **roue des futurs** (Futures Wheel, Glenn, 1971) — un groupe peut construire une roue ensemble, en direct, chacun dans sa propre langue, sur l'appareil qu'il a sous la main. Sans installation, sans compte, sans étape de build.
 
-> **Ceci est un travail en cours**, pas un produit fini — il continue d'évoluer au fil de son usage dans de vrais ateliers. Si quelque chose n'est pas clair, ne fonctionne pas, ou pourrait être amélioré, n'hésitez pas à [ouvrir une issue](https://github.com/oiioandy/oiioFuturesWheel/issues) ou à lancer une discussion. Toute suggestion est sincèrement bienvenue et appréciée.
+> **Ceci est un travail en cours**, pas un produit fini — il continue d'évoluer au fil de son usage dans de vrais ateliers. Si quelque chose n'est pas clair, ne fonctionne pas, ou pourrait être amélioré, n'hésitez pas à [ouvrir une issue](https://github.com/oiioandy/GreenFuturesWheel/issues) ou à lancer une discussion. Toute suggestion est sincèrement bienvenue et appréciée.
 
 ## Points forts
 
@@ -58,7 +58,7 @@ Dans les deux cas, ouvrez la même URL — avec le même `?room=XXXX` — sur ch
 Vous êtes libre d'utiliser, d'adapter et de redistribuer cet outil — y compris en le transformant en quelque chose qui vous appartient entièrement, pour un usage personnel, éducatif ou commercial — sous licence MIT. La seule condition : conserver un crédit envers l'auteur original et un lien vers ce dépôt.
 
 **Mention suggérée :**
-> Green Futures Wheel by An-Ting Kuo — https://github.com/oiioandy/oiioFuturesWheel
+> Green Futures Wheel by An-Ting Kuo — https://github.com/oiioandy/GreenFuturesWheel
 
 Pour une citation formelle (APA, BibTeX, etc.), utilisez le bouton **« Cite this repository »** sur la page GitHub, ou consultez [`CITATION.cff`](CITATION.cff).
 

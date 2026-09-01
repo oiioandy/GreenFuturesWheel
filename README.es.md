@@ -4,7 +4,7 @@
 
 Una herramienta gratuita de una sola página para dirigir talleres de **Rueda de Futuros** (Futures Wheel, Glenn, 1971) — un grupo de personas puede construir una rueda juntos, en vivo, cada uno en su propio idioma, en el dispositivo que tenga a mano. Sin instalación, sin cuenta, sin paso de compilación.
 
-> **Este es un trabajo en curso**, no un producto terminado — sigue cambiando conforme se usa en talleres reales. Si algo no está claro, no funciona o podría mejorarse, no dudes en [abrir un issue](https://github.com/oiioandy/oiioFuturesWheel/issues) o iniciar una discusión. Cualquier sugerencia es sinceramente bienvenida y muy apreciada.
+> **Este es un trabajo en curso**, no un producto terminado — sigue cambiando conforme se usa en talleres reales. Si algo no está claro, no funciona o podría mejorarse, no dudes en [abrir un issue](https://github.com/oiioandy/GreenFuturesWheel/issues) o iniciar una discusión. Cualquier sugerencia es sinceramente bienvenida y muy apreciada.
 
 ## Lo más destacado
 
@@ -58,7 +58,7 @@ En cualquier caso, abre la misma URL — con el mismo `?room=XXXX` — en cada d
 Eres libre de usar, adaptar y redistribuir esta herramienta —incluso transformarla en algo completamente propio, para uso personal, educativo o comercial— bajo la Licencia MIT. La única condición: mantener un crédito al autor original y un enlace de vuelta a este repositorio.
 
 **Línea de crédito sugerida:**
-> Green Futures Wheel by An-Ting Kuo — https://github.com/oiioandy/oiioFuturesWheel
+> Green Futures Wheel by An-Ting Kuo — https://github.com/oiioandy/GreenFuturesWheel
 
 Para una cita formal (APA, BibTeX, etc.), usa el botón **"Cite this repository"** en la página de GitHub, o consulta [`CITATION.cff`](CITATION.cff).
 

@@ -4,7 +4,7 @@
 
 A free, single-page tool for running **Futures Wheel** workshops (Glenn, 1971) — a group of people can build one wheel together, live, each in their own language, on whatever device they have. No installation, no account, no build step.
 
-> **This is a work in progress**, not a finished product — it keeps changing as it gets used in real workshops. If something is confusing, breaks, or could be better, please [open an issue](https://github.com/oiioandy/oiioFuturesWheel/issues) or start a discussion. Any suggestion is genuinely welcome and appreciated.
+> **This is a work in progress**, not a finished product — it keeps changing as it gets used in real workshops. If something is confusing, breaks, or could be better, please [open an issue](https://github.com/oiioandy/GreenFuturesWheel/issues) or start a discussion. Any suggestion is genuinely welcome and appreciated.
 
 ## Highlights
 
@@ -58,7 +58,7 @@ Either way, open the same URL — with the same `?room=XXXX` — on every device
 You're free to use, adapt, and redistribute this tool — including modifying it into something entirely your own, for personal, educational, or commercial purposes — under the MIT License. The only condition: keep a credit to the original author and a link back to this repository.
 
 **Suggested credit line:**
-> Green Futures Wheel by An-Ting Kuo — https://github.com/oiioandy/oiioFuturesWheel
+> Green Futures Wheel by An-Ting Kuo — https://github.com/oiioandy/GreenFuturesWheel
 
 For a formal citation (APA, BibTeX, etc.), use the **"Cite this repository"** button on the GitHub page, or see [`CITATION.cff`](CITATION.cff).
 

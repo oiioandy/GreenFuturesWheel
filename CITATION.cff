@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: "Kuo"
     given-names: "An-Ting"
-repository-code: "https://github.com/oiioandy/oiioFuturesWheel"
-url: "https://github.com/oiioandy/oiioFuturesWheel"
+repository-code: "https://github.com/oiioandy/GreenFuturesWheel"
+url: "https://github.com/oiioandy/GreenFuturesWheel"
 license: MIT
 date-released: "2026-09-01"

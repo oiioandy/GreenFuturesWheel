@@ -4,7 +4,7 @@
 
 一個免費、單頁式的**未來輪（Futures Wheel, Glenn, 1971）**工作坊工具——一群人可以在同一個房間裡即時共同建構一張未來輪，每個人用自己的語言、用自己手邊的裝置。不需安裝、不需帳號、不需編譯。
 
-> **這是一個還在不斷完善的作品**，不是完成品——它會隨著實際工作坊的使用持續變動。如果哪裡看不懂、壞掉了、或覺得可以更好，歡迎[開一個 issue](https://github.com/oiioandy/oiioFuturesWheel/issues) 或發起討論。任何建議都非常歡迎，也非常感激。
+> **這是一個還在不斷完善的作品**，不是完成品——它會隨著實際工作坊的使用持續變動。如果哪裡看不懂、壞掉了、或覺得可以更好，歡迎[開一個 issue](https://github.com/oiioandy/GreenFuturesWheel/issues) 或發起討論。任何建議都非常歡迎，也非常感激。
 
 ## 特色
 
@@ -58,7 +58,7 @@
 你可以自由使用、修改、再散布這個工具——包含把它改成你自己需要的樣子，個人、教學、商業用途都可以——採用 MIT 授權。唯一的條件是：保留對原作者的標示，並附上回到這個倉庫的連結。
 
 **建議的標示文字：**
-> Green Futures Wheel by An-Ting Kuo — https://github.com/oiioandy/oiioFuturesWheel
+> Green Futures Wheel by An-Ting Kuo — https://github.com/oiioandy/GreenFuturesWheel
 
 如果需要正式的引用格式（APA、BibTeX 等），可以用 GitHub 頁面上的 **「Cite this repository」** 按鈕，或參考 [`CITATION.cff`](CITATION.cff)。
 
