@@ -3926,8 +3926,20 @@
       }, 600);
     }
 
+    // A single missed/failed translation (rate limit, network blip, a
+    // backgrounded tab losing its in-memory cache) used to stay stuck
+    // showing raw shared text forever, until some unrelated collaboration
+    // event happened to trigger a fresh check. This watchdog makes sure a
+    // gap is retried on its own within a few seconds either way.
+    function startDisplayTranslateWatchdog() {
+      setInterval(() => {
+        if (displayTranslateActive) scheduleDisplayTranslateRefresh();
+      }, 6000);
+    }
+
     function setupTranslateControl() {
       loadDisplayTranslateSettings();
+      startDisplayTranslateWatchdog();
       const btn = document.getElementById('btn-translate-text');
       if (btn) btn.addEventListener('click', () => { translateAllNodeTexts(); });
       const target = document.getElementById('translate-target-lang');
