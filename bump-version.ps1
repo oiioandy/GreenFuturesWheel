@@ -1,4 +1,4 @@
-# Bump BuildDisplay like oiioMobile: yyyy.MM.dd.NN (Asia/Taipei).
+# Bump BuildDisplay using yyyy.MM.dd.NN format (Asia/Taipei).
 # Same day: VersionCode +1, BuildDaySeq +1 (01-99).
 # New day: VersionCode +1, BuildDaySeq back to 1.
 
