@@ -1017,7 +1017,8 @@
         collabConnectedPeers: '已連線 · {n} 人在線',
         collabDisconnected: '連接中斷',
         collabLoadError: '無法載入協作模組，請確認網路連線後重新整理。',
-        collabFileProtocol: '請勿直接雙擊 HTML。請在專案資料夾雙擊 start-app.cmd 啟動。',
+        collabFileProtocol: '請勿直接雙擊 HTML。請在專案資料夾雙擊 Startup.bat 啟動。',
+        visNetworkLoadFailed: '無法載入 vis-network。請確認 vendor/vis-network.min.js 與 index.html 在同一資料夾內。',
         nodeLocked: '其他學員正在編輯此節點',
 
       },
@@ -1140,7 +1141,8 @@
         collabConnectedPeers: 'Connected · {n} online',
         collabDisconnected: 'Disconnected',
         collabLoadError: 'Failed to load collaboration module. Check your network and reload.',
-        collabFileProtocol: 'Do not open the HTML file directly. Double-click start-app.cmd in the project folder.',
+        collabFileProtocol: 'Do not open the HTML file directly. Double-click Startup.bat in the project folder.',
+        visNetworkLoadFailed: 'Could not load vis-network. Make sure vendor/vis-network.min.js is in the same folder as index.html.',
         nodeLocked: 'Another participant is editing this node',
 
       },
@@ -1263,7 +1265,8 @@
         collabConnectedPeers: 'เชื่อมต่อแล้ว · ออนไลน์ {n} คน',
         collabDisconnected: 'การเชื่อมต่อขาด',
         collabLoadError: 'โหลดโมดูลร่วมงานไม่ได้ ตรวจสอบเครือข่ายแล้วรีโหลด',
-        collabFileProtocol: 'อย่าดับเบิลคลิกไฟล์ HTML โดยตรง กรุณาดับเบิลคลิก start-app.cmd ในโฟลเดอร์โปรเจกต์',
+        collabFileProtocol: 'อย่าดับเบิลคลิกไฟล์ HTML โดยตรง กรุณาดับเบิลคลิก Startup.bat ในโฟลเดอร์โปรเจกต์',
+        visNetworkLoadFailed: 'โหลด vis-network ไม่สำเร็จ กรุณาตรวจสอบว่า vendor/vis-network.min.js อยู่ในโฟลเดอร์เดียวกับ index.html',
         nodeLocked: 'ผู้เข้าร่วมคนอื่นกำลังแก้ไขโหนดนี้',
 
       },
@@ -1386,7 +1389,8 @@
         collabConnectedPeers: 'متصل · {n} متصلون',
         collabDisconnected: 'انقطع الاتصال',
         collabLoadError: 'تعذر تحميل وحدة التعاون. تحقق من الشبكة ثم أعد التحميل.',
-        collabFileProtocol: 'لا تفتح ملف HTML مباشرة. انقر نقرًا مزدوجًا على start-app.cmd في مجلد المشروع.',
+        collabFileProtocol: 'لا تفتح ملف HTML مباشرة. انقر نقرًا مزدوجًا على Startup.bat في مجلد المشروع.',
+        visNetworkLoadFailed: 'تعذّر تحميل vis-network. تأكد من أن vendor/vis-network.min.js في نفس مجلد index.html.',
         nodeLocked: 'مشارك آخر يحرر هذه العقدة',
 
       },
@@ -1509,7 +1513,8 @@
         collabConnectedPeers: 'Connecté · {n} en ligne',
         collabDisconnected: 'Déconnecté',
         collabLoadError: 'Impossible de charger le module de collaboration. Vérifiez le réseau puis rechargez.',
-        collabFileProtocol: 'N’ouvrez pas le fichier HTML directement. Double-cliquez sur start-app.cmd dans le dossier du projet.',
+        collabFileProtocol: 'N’ouvrez pas le fichier HTML directement. Double-cliquez sur Startup.bat dans le dossier du projet.',
+        visNetworkLoadFailed: 'Impossible de charger vis-network. Vérifiez que vendor/vis-network.min.js est dans le même dossier qu’index.html.',
         nodeLocked: 'Un autre participant modifie ce nœud',
 
       },
@@ -1632,7 +1637,8 @@
         collabConnectedPeers: 'Подключено · онлайн: {n}',
         collabDisconnected: 'Соединение разорвано',
         collabLoadError: 'Не удалось загрузить модуль совместной работы. Проверьте сеть и обновите страницу.',
-        collabFileProtocol: 'Не открывайте HTML-файл напрямую. Дважды щёлкните start-app.cmd в папке проекта.',
+        collabFileProtocol: 'Не открывайте HTML-файл напрямую. Дважды щёлкните Startup.bat в папке проекта.',
+        visNetworkLoadFailed: 'Не удалось загрузить vis-network. Убедитесь, что vendor/vis-network.min.js находится в той же папке, что и index.html.',
         nodeLocked: 'Другой участник редактирует этот узел',
 
       },
@@ -1755,7 +1761,8 @@
         collabConnectedPeers: 'Conectado · {n} en línea',
         collabDisconnected: 'Desconectado',
         collabLoadError: 'No se pudo cargar el módulo de colaboración. Compruebe la red y recargue.',
-        collabFileProtocol: 'No abra el archivo HTML directamente. Haga doble clic en start-app.cmd en la carpeta del proyecto.',
+        collabFileProtocol: 'No abra el archivo HTML directamente. Haga doble clic en Startup.bat en la carpeta del proyecto.',
+        visNetworkLoadFailed: 'No se pudo cargar vis-network. Compruebe que vendor/vis-network.min.js esté en la misma carpeta que index.html.',
         nodeLocked: 'Otro participante está editando este nodo',
 
       },
@@ -1772,6 +1779,11 @@
     let lang = localStorage.getItem('fw-lang') || 'zh';
     if (!I18N[lang]) lang = 'zh';
     function t(key) { return I18N[lang]?.[key] || I18N.zh[key] || key; }
+    // Set when the page is opened via file:// — that banner is written
+    // directly (not through a data-i18n element, since it's conditional),
+    // so it must be explicitly re-translated on every language switch too.
+    let fileProtocolWarningActive = false;
+
     function applyI18n() {
       const meta = LANG_META[lang] || LANG_META.zh;
       document.documentElement.lang = meta.htmlLang;
@@ -1785,6 +1797,12 @@
         el.title = label;
         el.setAttribute('aria-label', label);
       });
+      if (fileProtocolWarningActive) {
+        const msg = t('collabFileProtocol');
+        const el = document.getElementById('collab-status');
+        if (el) el.textContent = msg;
+        showLoadError(msg);
+      }
       updateDisplayModeButton();
       document.getElementById('lang-select').value = lang;
     }
@@ -2419,6 +2437,7 @@
 
       if (location.protocol === 'file:') {
         collabEnabled = false;
+        fileProtocolWarningActive = true;
         const el = document.getElementById('collab-status');
         if (el) {
           el.classList.add('error');
@@ -7084,7 +7103,7 @@
 
     async function boot() {
       if (typeof vis === 'undefined') {
-        showLoadError('無法載入 vis-network。請確認 vendor/vis-network.min.js 與 index.html 在同一資料夾內。');
+        showLoadError(t('visNetworkLoadFailed'));
         return;
       }
       roomId = ensureRoomInUrl();
