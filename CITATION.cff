@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use, adapt, or redistribute this software, please credit it as below."
+title: "Green Futures Wheel"
+type: software
+authors:
+  - family-names: "Kuo"
+    given-names: "An-Ting"
+repository-code: "https://github.com/oiioandy/oiioFuturesWheel"
+url: "https://github.com/oiioandy/oiioFuturesWheel"
+license: MIT
+date-released: "2026-09-01"

@@ -51,6 +51,15 @@
 | `start-collab-server.ps1` / `.cmd` | 可選：自己架一個本機協作中繼站，取代公開的示範伺服器。 |
 | `bump-version.ps1` | 給維護者用的工具：更新應用程式裡顯示的版本號。 |
 
+## 使用與散布
+
+你可以自由使用、修改、再散布這個工具——包含把它改成你自己需要的樣子，個人、教學、商業用途都可以——採用 MIT 授權。唯一的條件是：保留對原作者的標示，並附上回到這個倉庫的連結。
+
+**建議的標示文字：**
+> Green Futures Wheel by An-Ting Kuo — https://github.com/oiioandy/oiioFuturesWheel
+
+如果需要正式的引用格式（APA、BibTeX 等），可以用 GitHub 頁面上的 **「Cite this repository」** 按鈕，或參考 [`CITATION.cff`](CITATION.cff)。
+
 ## 授權
 
 MIT — 詳見 [`LICENSE`](LICENSE)。第三方元件列在 [`NOTICE`](NOTICE) 裡。

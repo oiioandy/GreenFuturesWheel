@@ -51,6 +51,15 @@ En cualquier caso, abre la misma URL — con el mismo `?room=XXXX` — en cada d
 | `start-collab-server.ps1` / `.cmd` | Opcional: ejecuta tu propio relé de colaboración local en lugar de los servidores de demostración públicos. |
 | `bump-version.ps1` | Herramienta de mantenimiento: incrementa el número de versión que se muestra en la aplicación. |
 
+## Uso y difusión
+
+Eres libre de usar, adaptar y redistribuir esta herramienta —incluso transformarla en algo completamente propio, para uso personal, educativo o comercial— bajo la Licencia MIT. La única condición: mantener un crédito al autor original y un enlace de vuelta a este repositorio.
+
+**Línea de crédito sugerida:**
+> Green Futures Wheel by An-Ting Kuo — https://github.com/oiioandy/oiioFuturesWheel
+
+Para una cita formal (APA, BibTeX, etc.), usa el botón **"Cite this repository"** en la página de GitHub, o consulta [`CITATION.cff`](CITATION.cff).
+
 ## Licencia
 
 MIT — ver [`LICENSE`](LICENSE). Los componentes de terceros están listados en [`NOTICE`](NOTICE).
