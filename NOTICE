@@ -1,11 +1,8 @@
-Future Wheel (未來輪) — Future Literacy Teaching Assistant Tool
+Green Futures Wheel - Future Literacy Teaching Assistant Tool
+2026.09.01.02
 ================================================================
 
 Developed by An-Ting Kuo.
-
-This software is developed with authorization from Tamkang University, Taiwan.
-
-Academic supervision: Professor Kuo-Hua Chen.
 
 Copyright (c) 2026 An-Ting Kuo.
 
@@ -13,5 +10,8 @@ Licensed under the MIT License. See the LICENSE file for the full license text.
 
 Third-party components:
 
-  vis-network — MIT / Apache-2.0 dual license
+  vis-network - MIT / Apache-2.0 dual license
   See vendor/vis-network.min.js for details.
+
+  PptxGenJS — MIT license (loaded from CDN when exporting PowerPoint)
+  https://github.com/gitbrent/PptxGenJS
